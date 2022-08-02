@@ -1,10 +1,43 @@
----
-title: 情人節特別企劃
-layout: ./app/layout.ejs
-engine: ejs
-current: index
----
-<div class="bg-primary">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Roboto:ital,wght@0,400;0,500;0,700;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <title>
+    情人節特別企劃
+  </title>
+  <link rel="stylesheet" href="./assets/style/all.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="bg-secondary ">
+      <div class="container">
+        <nav class="nav">
+          <h1 class="nav-title"><a href="index.html" class="nav-logo">六角眼鏡行</a></h1>
+          <ul class="nav-list">
+            <li class="nav-item"><a href="optical.html" class="nav-link font-xl">系列鏡框</a></li>
+            <li class="nav-item"><a href="store.html" class="nav-link font-xl">門市據點</a></li>
+            <li class="nav-item"><a href="blog.html" class="nav-link font-xl">部落格</a></li>
+            <li class="nav-item"><a href="question.html" class="nav-link font-xl">常見問題</a></li>
+          </ul>
+          <a href="#" class="nav-menu"><i class="fa-solid fa-bars fa-2xl align-middle"></i></a>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <div class="bg-primary">
     <div class="container">
         <div class="d-flex justify-content-between align-items-cneter d-sm-block">
             <ul class="d-flex justify-content-between fw-3">
@@ -163,3 +196,77 @@ current: index
         </div>
     </div>
 </main>
+    <footer class="bg-secondary pt-2 pb-1 pb-md-2">
+      <div class="container">
+        <div
+          class="d-flex flex-column flex-sm-row-reverse justify-content-sm-between align-items-sm-start mb-5 mb-sm-4">
+          <div class="d-flex justify-content-between align-items-cneter mb-4">
+            <ul class="d-flex d-sm-none">
+              <li>
+                <a href="index.html" class="py-1 link-border">首頁</a>
+              </li>
+              <li class="ms-5">
+                <a href="optical.html" class="py-1 link-border">系列鏡框</a>
+              </li>
+              <li class="ms-5">
+                <a href="store.html" class="py-1 link-border">門市據點</a>
+              </li>
+              <li class="ms-5">
+                <a href="blog.html" class="py-1 link-border">部落格</a>
+              </li>
+              <li class="ms-5">
+                <a href="question.html" class="py-1 link-border">常見問題</a>
+              </li>
+            </ul>
+            <ul class="d-flex">
+              <li>
+                <a href="#" class="h2 font-md-l font-sm-m link-color">
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+              </li>
+              <li class="ms-4 ms-4 ms-md-1 ms-sm-1 ">
+                <a href="#" class="h2 font-md-l font-sm-m link-color">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+              </li>
+              <li class="ms-4 ms-4 ms-md-1 ms-sm-1">
+                <a href="#" class="h2 font-md-l font-sm-m link-color">
+                  <i class="fa-brands fa-line"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <ul class="align-self-start">
+            <li class="mb-2">
+              <a class="h4 font-sm-s link-border" href="tel:0800-000-000">
+                <span class="material-symbols-outlined h4 font-sm-s align-middle">
+                  call
+                </span>0800-000-000
+              </a>
+            </li>
+            <li>
+              <a class="h4 font-sm-s link-border" href="mailto:glasses@business.com">
+                <span class="material-symbols-outlined h4 font-sm-s align-middle">
+                  mail
+                </span>
+                glasses@business.com
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="border-bottom border-white mb-5 mb-sm-3"></div>
+        <div class="d-flex justify-content-between flex-sm-column">
+          <p class="text-white mb-sm-2">Copyright © 2020 Glasses.All rights reserved.</p>
+          <ul class="d-flex flex-sm-column">
+            <li><a class="font-s font-sm-s mb-sm-2 link-border" href="#">隱私權政策</a></li>
+            <li><a class="font-s font-sm-s ms-5 m-sm-0 link-border" href="#">服務條款</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./assets/js/vendors.js"></script>
+    <script src="./assets/js/all.js"></script>
+</body>
+
+</html>
