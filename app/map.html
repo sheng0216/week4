@@ -1,0 +1,50 @@
+---
+title: 門市據點
+layout: ./app/layout.ejs
+engine: ejs
+current: index
+---
+<main class="pt-3 pb-2 py-md-2 pt-sm-2 pb-sm-1">
+    <section class="container">
+        <h2 class="h2 font-sm-m fw-3 mb-5 mb-sm-4 ps-1 border-start border-2 border-primary">門市據點</h2>
+        <div class="d-flex align-items-cneter mb-6 mb-sm-4">
+            <label for="area" class="white-space"> 選擇地區</label>
+            <select name="" id="area" class="form-select ms-2 ms-sm-1">
+                <option value="台北中山旗艦店">台北中山旗艦店</option>
+            </select>
+        </div>
+        <div class="store-branch">
+            <div class="store-item mb-md-4">
+                <img src="./assets/images/store-1.png" alt="" class="store-img">
+                <div class="store-text">
+                    <h3 class="font-xxl py-1 px-1 border border-gray">台北中山旗艦店</h3>
+                    <div class="p-1 border border-gray font-xl">
+                        <div class="d-flex mb-2">
+                            <span class="material-symbols-outlined align-middle">
+                                call
+                            </span>
+                            <a class="text-lightmuted ms-1" href="tel:(02)000-1234">電話：(02)000-1234</a>
+                        </div>
+                        <div class=" d-flex mb-2">
+                            <span class="material-symbols-outlined">
+                                schedule
+                            </span>
+                            <p class="ms-1">營業時間：10:00-21:00</p>
+                        </div>
+                        <div class="d-flex mb-2">
+                            <span class="material-symbols-outlined">
+                                location_on
+                            </span>
+                            <p class="ms-1">地址：台北市中山區南京東路25巷2-1號</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <iframe class="store-map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.0124373192557!2d121.56165725104819!3d25.033651983893932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442abb6da80a7ad%3A0xacc4d11dc963103c!2z5Y-w5YyXMTAx!5e0!3m2!1szh-TW!2stw!4v1659010321458!5m2!1szh-TW!2stw"
+                width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+</main>
